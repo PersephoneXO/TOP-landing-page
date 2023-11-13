@@ -1,12 +1,13 @@
 body{
-    font-family:'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Roboto, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px auto;
-    width: 100%;
+        width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/*Section 1*/
 .section1{
     display: block;
     background-color: #1F2937;
@@ -28,7 +29,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 #header-logo{
@@ -52,8 +53,8 @@ ul, a{
 .intro-div{
     display: flex;
     align-items: center;
-    gap: 40px;
-    padding-bottom: 100px;
+    gap: 50px;
+    margin-bottom: 130px;
 
 
 }
@@ -66,14 +67,14 @@ ul, a{
     color: #F9FAF8;
     text-wrap: wrap;
     margin: 0;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 #intro-subtext{
     color: #E5E7EB;
     font-size: 18px;
     margin:0;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 #intro-img{
@@ -90,4 +91,48 @@ ul, a{
     border-style: none;
     margin: auto;
 
+}
+
+
+/*Section 2*/
+.section2{
+    display: block;
+    background-color: #F9FAF8;
+    padding-inline: 15%;
+}
+
+#random-info-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 24px;
+
+}
+
+.random-info-div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+.random-info-div p{
+    font-size: 18px;
+    color: #1F2937;
+    margin: 0;
+    /*padding: 0 50px;*/
+    max-width: 150px;
+}
+
+.random-info-div img{
+    border-radius: 10%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
 }
